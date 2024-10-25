@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "58ea2080-a2d7-4baa-a765-b8505513101a",
+		"name": "MLEvaluation_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39130783"
+	},
+	"item": [
+		{
+			"name": "EndPoint",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Num_Children\": [1, 2, 1, 1, 1, 4, 2, 4, 4, 3, 3, 0, 5, 3, 1],\r\n    \"Gender\": [\"Male\", \"Female\", \"Male\", \"Male\", \"Male\", \"Female\", \"Female\", \"Female\", \"Female\", \"Female\", \"Female\", \"Female\", \"Female\", \"Male\", \"Male\"],\r\n    \"Income\": [40690, 75469, 70497, 61000, 56666, 88940, 76331, 98610, 74190, 65759, 99948, 66068, 65982, 72445, 119407],\r\n    \"Own_Car\": [\"No\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"No\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\"],\r\n    \"Own_Housing\": [\"Yes\", \"No\", \"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"No\", \"No\", \"No\", \"No\", \"No\", \"No\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
