@@ -52,7 +52,7 @@ def predict():
 
     # Preprocess the input data to match the model's expected format
     processed_data = preprocess_input(input_data)
-    #print(processed_data)
+    
     # Perform prediction
     predictions = model.predict(processed_data)
 
