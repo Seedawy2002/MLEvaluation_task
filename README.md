@@ -102,7 +102,7 @@ Where `1` indicates credit card approval and `0` indicates denial.
 - For testing, use the Postman collection file `MLEvaluation_API.postman_collection.json` provided in the repository.
 
 ### License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-02 License. See the [LICENSE](LICENSE) file for details.
 
 ### Contact
 For any issues or questions, feel free to reach out via Teams or email.
